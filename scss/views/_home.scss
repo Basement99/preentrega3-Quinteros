@@ -1,0 +1,33 @@
+.fondo {
+	background-image: url(../assets/img/fondo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	height: 100vh;
+}
+
+footer {
+	height: 15vh;
+	width: 100vw;
+}
+
+header {
+	height: 17vh;
+	width: 100vw;
+}
+
+.logo:hover {
+	opacity: 0.7 !important;
+}
+
+
+.image-zoom {
+transition: 0.3s !important;
+}
+
+.image-zoom:hover {
+	transform: scale(1.1) !important;
+}
