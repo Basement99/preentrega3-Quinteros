@@ -7,16 +7,22 @@
 
 h1 {
   color: #f0b000;
-  font-family: "Times New Roman", Times, serif;
+  font-family: helvetica;
 }
 
 h2 {
   color: #f0b000;
-  font-family: "Times New Roman", Times, serif;
+  font-family: helvetica;
+}
+
+h5 {
+  color: #f0b000;
+  font-family: helvetica;
 }
 
 p {
   color: #f0b000;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .fondo {
@@ -50,6 +56,11 @@ header {
 
 .image-zoom:hover {
   transform: scale(1.1) !important;
+}
+
+.fondo-notices {
+  background-color: #ff4500;
+  background-image: linear-gradient(62deg, #ff4500 0%, #f0b000 100%);
 }
 
 .btn {
@@ -90,7 +101,7 @@ header {
 
 .btn:hover {
   transition: 0.1ms !important;
-  background-color: orangered !important;
+  background-color: #ff4500 !important;
 }
 
 .dropdown-item {
@@ -122,6 +133,12 @@ header {
   color: var(--bs-btn-active-color);
   background-color: orangered;
   border-color: var(--bs-btn-active-border-color);
+}
+
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: orangered;
+  border-color: orangered;
 }
 
 .custom-slide {

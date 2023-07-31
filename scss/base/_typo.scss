@@ -2,16 +2,23 @@
 
 h1 {
   color: $font-color;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: helvetica;
 }
 
 
 h2 {
   color: $font-color;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: helvetica;
+}
+
+
+h5 {
+  color: $font-color;
+  font-family: helvetica;
 }
 
 
 p {
   color: $font-color;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

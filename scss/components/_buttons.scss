@@ -36,7 +36,7 @@
 
 .btn:hover {
 	transition: 0.1ms !important;
-	background-color: orangered !important;
+	background-color: #ff4500 !important;
 }
 
 .dropdown-item {
@@ -69,3 +69,9 @@
 	background-color: orangered;
 	border-color: var(--bs-btn-active-border-color);
 } 
+
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+	color: var(--bs-btn-active-color);
+	background-color: orangered;
+	border-color: orangered;
+}
