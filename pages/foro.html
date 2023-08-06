@@ -26,7 +26,7 @@
 	
 	<body class="bg-dark bg-gradient">
 
-		<div class="fondo">
+		<div class="fondo-foro">
 
 			<!-- Header -->
 
@@ -67,6 +67,181 @@
 			<!-- Contenido -->
 			
 			<main class="container-fluid">
+
+				<h1 class="mt-5 bg-warning text-center" style="color: #5a5a5a;"> BIENVENIDOS AL FORO </h1>
+
+				<!-- Boton crear sección -->
+
+				<div class="modal-form border-bottom border-top">
+
+					<!-- Boton modal -->
+
+					
+					<button type="button" class="btn btn-secondary mb-3 mt-3" data-bs-toggle="modal" data-bs-target="#modalExample">
+						Crear sección
+					</button>
+					
+						<!-- Modal -->
+						<div class="d-flex justify-content-center">
+							<div class="modal fade" id="modalExample" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content bg-dark">
+										<div class="modal-header">
+											<p class="modal-title fs-5" id="exampleModalLabel">Nueva sección</p>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="mb-3">
+											<label for="exampleFormControlInput1" class="form-label ms-2">Nombre de la sección</label>
+											<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre:">
+										</div>
+										<div class="mb-3">
+											<label for="exampleFormControlTextarea1" class="form-label ms-2">Tema de la sección</label>
+											<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary me-1" data-bs-dismiss="modal">Cerrar</button>
+											<button type="button" class="btn btn-secondary ms-1" data-bs-dismiss="modal">Crear</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+							
+					
+				</div>
+
+				<!-- Publicaciones -->
+
+				<h2 class="ms-5 mt-3 mb-3"><strong> TEMAS </strong></h2>
+
+				<div>
+					
+					<!-- Pub 1 -->
+
+					<div class="accordion border-top" id="accordionPanelsStayOpenExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+									<strong>Jugabilidad</strong>
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+								<div class="accordion-body">
+									<p>Ahora el humo tiene la capacidad de interactuar con otros eventos del juego, creando así nuevas posibilidades. Las balas y las granadas AE pueden desplazarlo para despejar brevemente las líneas de visión o ampliar la oclusión. <strong>Se expande para rellenar espacios de forma natural</strong>
+										Ahora el humo se filtrará por puertas abiertas y ventanas rotas, bajará y subirá escaleras, se propagará por pasillos alargados y se combinará con otros humos. <br> <label class="d-flex justify-content-end" style="color: black;" for="placeholder">Meet, 4/8/23</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pub 2 -->
+
+					<div class="accordion" id="accordionPanelsStayOpenExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+									<strong>Herramientas de Source 2</strong>
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+								<div class="accordion-body">
+									<p>Las herramientas y características de renderizado de Source 2 estarán disponibles para los creadores de mapas de la comunidad con el fin de facilitar la creación, experimentación e iteración. Y atentos al Workshop de artículos de Source 2, que llegará más adelante en la prueba limitada. <br><label class="d-flex justify-content-end" style="color: black;" for="placeholder">BasemenT, 1/8/23</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pub 3 -->
+
+					<div class="accordion" id="accordionPanelsStayOpenExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+									<strong>Mapas mejorados</strong>
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+								<div class="accordion-body">
+									<p><strong>Desde actualizaciones hasta remodelaciones, los mapas son más limpios, más brillantes y mejores.</strong>Mapas completamente remodelados. Los mapas renovados se han reconstruido completamente desde cero aprovechando todas las nuevas herramientas y características de renderizado de Source 2. <br><label class="d-flex justify-content-end" style="color: black;" for="placeholder">OrangeMint, 28/7/23</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pub 4 -->
+					
+					<div class="accordion" id="accordionPanelsStayOpenExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+									<strong>Qué pasa con las skins?</strong>
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+								<div class="accordion-body">
+									<p>Tráete todo tu inventario de CS:GO a Counter-Strike 2. No solo conservarás todos los artículos que has ido coleccionando a lo largo de los años, sino que estos se verán aún mejor con la iluminación y los materiales de Source 2. Además de ser compatibles con los modelos y acabados clásicos, todas las armas de serie se han mejorado con modelos de alta resolución, y algunos acabados de arma aprovechan estos nuevos modelos. <br><label class="d-flex justify-content-end" style="color: black;" for="placeholder">El Toro, 23/7/23</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pub 5 -->
+
+					<div class="accordion" id="accordionPanelsStayOpenExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+									<strong>Elementos visuales</strong>
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+								<div class="accordion-body">
+									<p>En Counter-Strike 2 se han actualizado todos los efectos visuales. Con los sistemas de iluminación y partículas de Source 2, el agua, las explosiones, el fuego, el humo, los fogonazos, las balas trazadoras, los efectos de impacto y muchas cosas más tienen un aspecto y un comportamiento totalmente nuevos. Los elementos visuales más importantes durante el juego se han rediseñado pensando en la legibilidad. Los impactos de bala pueden verse fácilmente a distancia, y las manchas de sangre direccionales (que se desvanecen con el tiempo) te dan más información mientras te mueves por el mundo. <br><label class="d-flex justify-content-end" style="color: black;" for="placeholder">El mono, 18/7/23</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pub 6 -->
+
+					<div class="accordion" id="accordionPanelsStayOpenExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
+									<strong>Sonido preciso</strong>
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse ">
+								<div class="accordion-body">
+									<p><strong>Rediseñado, reequilibrado, reverberado</strong> Los sonidos de Counter-Strike 2 se han rediseñado para reflejar mejor el entorno físico, ser más distintivos y expresar más el estado de la partida. También se han reequilibrado para ofrecer una experiencia auditiva más cómoda. <br><label class="d-flex justify-content-end" style="color: black;" for="placeholder">El tiger, 13/7/23</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Sección de sugerencias -->
+
+				<h2 class="mt-5 mb-3 text-center"><strong>Tu opinión nos importa</strong></h2>
+
+				<div class="col-12 d-flex justify-content-center">
+					<div class="col-6">
+						<div class="mb-3">
+							<label for="exampleFormControlInput1" class="form-label ms-2">Nombre</label>
+							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre:">
+						</div>
+						<div class="mb-3">
+							<label for="exampleFormControlTextarea1" class="form-label ms-2">Comentario/sugerencia</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su opinión o sugerencia aquí..."></textarea>
+						</div>
+						<div class=" d-flex justify-content-end">
+							<button type="reset" id="limpiarCampos" class="btn btn-secondary">Enviar</button>
+						</div>
+					</div>
+				</div>
+
+
 
 			</main>
 

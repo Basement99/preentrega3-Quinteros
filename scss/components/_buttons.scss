@@ -71,7 +71,37 @@
 } 
 
 .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
-	color: var(--bs-btn-active-color);
+	color: orangered;
 	background-color: orangered;
 	border-color: orangered;
 }
+
+.btn-primary {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: #ffc107;
+	--bs-btn-border-color: #ffc107;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #ffc107;
+	--bs-btn-hover-border-color: #ffc107;
+	--bs-btn-focus-shadow-rgb: 49,132,253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #ffc107;
+	--bs-btn-active-border-color: #ffc107;
+	--bs-btn-active-shadow: inset 0 3px 5px orangered;
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: #ffc107;
+	--bs-btn-disabled-border-color: #ffc107;
+	}
+
+	.btn-close {
+    --bs-btn-close-color: #ffc107 !important;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: #ffc107 !important;
+    background: transparent #ffc107 center/1em auto no-repeat !important;
+    border: 0;
+    border-radius: 0.375rem;
+}
+
