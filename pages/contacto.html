@@ -20,7 +20,7 @@
 	
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 
-	<title> Perfil - Flashea2 </title>
+	<title> Contacto - Flashea2 </title>
 
 	</head>
 	
@@ -76,29 +76,31 @@
 					<div class="col-12 d-flex justify-content-center">
 						<div class="col-xs-10 col-sm-9 col-md-8 col-lg-6 col-xl-6 col-xxl-6">
 
-							<div class="mb-3">
-								<label for="exampleFormControlInput1" class="form-label ms-2">Nombre</label>
-								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre:">
-							</div>
-
-							<div class="mb-3">
-								<label for="exampleFormControlInput1" class="form-label ms-2">Correo electrónico</label>
-								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico:">
-							</div>
-
-							<div class="mb-3">
-								<label for="exampleFormControlInput1" class="form-label ms-2">Celular</label>
-								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Número:">
-							</div>
-
-							<div class="mb-3">
-								<label for="exampleFormControlTextarea1" class="form-label ms-2">Comentario/sugerencia</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su opinión o sugerencia aquí..."></textarea>
-							</div>
-
-							<div class=" d-flex justify-content-end">
-								<button type="reset" id="limpiarCampos" class="btn btn-secondary">Enviar</button>
-							</div>
+							<form id="formulario">
+								<div class="mb-3">
+									<label for="exampleFormControlInput1" class="form-label ms-2">Nombre</label>
+									<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar nombre:">
+								</div>
+	
+								<div class="mb-3">
+									<label for="exampleFormControlInput1" class="form-label ms-2">Correo electrónico</label>
+									<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese suorreo electrónico:">
+								</div>
+	
+								<div class="mb-3">
+									<label for="exampleFormControlInput1" class="form-label ms-2">Celular</label>
+									<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar número:">
+								</div>
+	
+								<div class="mb-3">
+									<label for="exampleFormControlTextarea1" class="form-label ms-2">Comentario/sugerencia</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su opinión o sugerencia aquí..."></textarea>
+								</div>
+	
+								<div class=" d-flex justify-content-end">
+									<button type="submit" onclick=" return validar();" class="btn btn-secondary">Enviar</button>
+								</div>							
+							</form>
 
 						</div>
 					</div>
@@ -135,6 +137,10 @@
 			</footer>
 
 		</div>
+
+		<!-- vinculo para borrar form -->
+
+		<script type="text/javascript" src="../js/contacto.js"></script>
 		
 		<!-- Vínculo de bootstrap -->
 
