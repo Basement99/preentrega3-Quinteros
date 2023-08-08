@@ -1,3 +1,9 @@
+.main-index {
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+}
+
 .fondo {
 	background-image: url(../assets/img/fondo.png);
 	background-position: center;
@@ -15,7 +21,7 @@ footer {
 }
 
 header {
-	height: 17vh;
+	height: 20vh;
 	width: 100vw;
 }
 

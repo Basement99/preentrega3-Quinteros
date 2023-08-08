@@ -5,3 +5,12 @@
   margin-bottom: 20px !important;
   border-radius: 0 !important;
 }
+
+@mixin shadow-in-all-directions {
+  $offset-x: 5px;
+  $offset-y: 5px;
+  $blur-radius: 5px;
+  $spread-radius: 5px;
+  
+  box-shadow: $offset-x $offset-y $blur-radius $spread-radius $dark-shadow-color;
+}

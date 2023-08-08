@@ -1,14 +1,8 @@
 * {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.logo-box {
-  padding: 0 !important;
   margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul, ol {
@@ -44,12 +38,6 @@ p {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.main-index {
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
-}
-
 .fondo {
   background-image: url(../assets/img/fondo.png);
   background-position: center;
@@ -67,7 +55,7 @@ footer {
 }
 
 header {
-  height: 20vh;
+  height: 17vh;
   width: 100vw;
 }
 
@@ -91,10 +79,6 @@ header {
 .fondo-foro {
   background-color: #2e2b2a;
   background-image: linear-gradient(62deg, #2e2b2a 0%, #5a5a5a 100%);
-}
-
-.shadow-notices {
-  box-shadow: 5px 5px 5px 5px #333;
 }
 
 .btn {
@@ -248,30 +232,21 @@ header {
   transition: var(--bs-accordion-btn-icon-transition);
 }
 
-.img-card-shop {
-  width: 15rem;
-}
-
 footer {
   padding: 0 !important;
   margin: 0 !important;
-  height: 17vh;
+  box-sizing: border-box;
 }
 
 header {
   padding: 0 !important;
   margin: 0 !important;
   box-sizing: border-box;
-  overflow-y: hidden;
 }
-header nav {
+header ul {
+  padding: 0 !important;
   margin: 0 !important;
-  padding: 0 !important;
-  min-width: 100%;
-}
-header nav ul {
-  padding: 0 !important;
-  min-width: 100% !important;
+  box-sizing: border-box;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
